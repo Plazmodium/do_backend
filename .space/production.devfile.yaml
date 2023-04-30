@@ -1,5 +1,7 @@
 
 schemaVersion: 2.2.0
+metadata:
+  name: 'DO Portal_Backend - Production'
 attributes:
   space:
     instanceType: regular

@@ -1,4 +1,6 @@
 schemaVersion: 2.2.0
+metadata:
+  name: 'DO Portal_Backend - Dev'
 attributes:
   space:
     instanceType: regular
