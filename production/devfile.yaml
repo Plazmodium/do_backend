@@ -1,0 +1,13 @@
+version: 1.0
+services:
+  backend:
+    image: node:14
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    command: npm run start:production
