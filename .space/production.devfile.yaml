@@ -1,5 +1,10 @@
 
 schemaVersion: 2.2.0
+attributes:
+  space:
+    instanceType: regular
+    editor:
+      type: Fleet
 version: 1.0
 services:
   backend:
